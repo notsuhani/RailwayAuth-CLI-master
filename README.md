@@ -1,8 +1,8 @@
-🚆 RailwayAuth-CLI-master – Admin & User Validation System (C++ CLI)
+<h1>🚆 RailwayAuth-CLI-master – Admin & User Validation System (C++ CLI)</h1>
 RailwayAuth-CLI-master is a C++-based command-line application that simulates a secure user validation and registration system for a railway portal.
-It includes admin login, credential updates, input validation, and file-based data persistence — all implemented using standard C++ libraries.
+It includes admin login, credential updates, input validation, and file-based data persistence — all implemented using standard C++ libraries. <br>
 
-🧠 Problem Statement
+<h1>🧠 Problem Statement </h1>
 Railway systems require secure and structured user data entry.
 This project simulates an admin-managed registration system where:
 
@@ -10,9 +10,9 @@ Admin credentials are validated and can be updated
 
 User inputs are strictly validated (name, email, DOB, etc.)
 
-Validated data is saved persistently in a local file (users.txt)
+Validated data is saved persistently in a local file (users.txt) <br>
 
-💻 Features
+<h1>💻 Features</h1>
 ✅ Admin login using a file-based .properties-like config
 ✅ Create new admin users from CLI
 ✅ User registration form with full input validation
