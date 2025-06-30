@@ -19,16 +19,16 @@ Validated data is saved persistently in a local file (users.txt) <br>
 ✅ Retry mechanism on invalid input
 ✅ Stores user data in users.txt using file streams
 ✅ Menu-driven CLI navigation
-✅ Modular, structured C++ code using classes and functions
+✅ Modular, structured C++ code using classes and functions <br>
 
-🛠️ Tech Stack
+<h1>🛠️ Tech Stack</h1>
 Technology	Usage
 C++ (Core)	Business logic, validation, menu handling
 File I/O	fstream, ifstream, ofstream
 Regex	std::regex for email, phone, and input validation
 Input Handling	cin, getline()
 
-📁 Folder Structure
+<h1>📁 Folder Structure </h1>
 objectivec
 Copy
 Edit
