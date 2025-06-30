@@ -1,91 +1,85 @@
-# 🚆 ValidRail – Admin & User Validation System (Java CLI)
+🚆 RailwayAuth-CLI-master – Admin & User Validation System (C++ CLI)
+RailwayAuth-CLI-master is a C++-based command-line application that simulates a secure user validation and registration system for a railway portal.
+It includes admin login, credential updates, input validation, and file-based data persistence — all implemented using standard C++ libraries.
 
-ValidRail is a **Java-based command-line application** that simulates a secure user validation and registration system for a railway portal.  
-It includes admin login, credential updates, full input validation, and file-based data persistence.
+🧠 Problem Statement
+Railway systems require secure and structured user data entry.
+This project simulates an admin-managed registration system where:
 
----
+Admin credentials are validated and can be updated
 
-## 🧠 Problem Statement
+User inputs are strictly validated (name, email, DOB, etc.)
 
-Railway systems require secure and structured user data entry. This project simulates an **admin-managed registration system** where:
-- Admin credentials are validated and updatable
-- User inputs are rigorously validated (name, email, DOB, etc.)
-- Validated data is saved in a persistent file (`users.txt`)
+Validated data is saved persistently in a local file (users.txt)
 
----
+💻 Features
+✅ Admin login using a file-based .properties-like config
+✅ Create new admin users from CLI
+✅ User registration form with full input validation
+✅ Retry mechanism on invalid input
+✅ Stores user data in users.txt using file streams
+✅ Menu-driven CLI navigation
+✅ Modular, structured C++ code using classes and functions
 
-## 💻 Features
+🛠️ Tech Stack
+Technology	Usage
+C++ (Core)	Business logic, validation, menu handling
+File I/O	fstream, ifstream, ofstream
+Regex	std::regex for email, phone, and input validation
+Input Handling	cin, getline()
 
-- ✅ Admin Login via `.properties` file  
-- ✅ Create New Admin users from the CLI  
-- ✅ Full User Registration Form with Validation  
-- ✅ Retry on invalid input  
-- ✅ Stores data in `users.txt`  
-- ✅ Menu-driven navigation  
-- ✅ Modular & clean Java code
-
----
-
-## 🛠️ Tech Stack
-
-- Java (Core, CLI)
-- File I/O (`BufferedWriter`, `Properties`)
-- Regex (for email, phone validation)
-- Scanner for user input
-
----
-
-## 📁 Folder Structure
-
-ValidRail/
+📁 Folder Structure
+objectivec
+Copy
+Edit
+RailwayAuth-CLI-master/
 ├── src/
-│ └── AssignmentProgram.java
+│   └── AssignmentProgram.cpp
 ├── resources/
-│ ├── userLogin.properties
-│ └── users.txt
+│   ├── userLogin.properties   // Simple key-value config
+│   └── users.txt              // Stores user data
 ├── .gitignore
 ├── README.md
 └── LICENSE
+🚀 How to Run
+Clone this repo:
 
+bash
+Copy
+Edit
+git clone https://github.com/adityamishra1105/RailwayAuth-CLI-master.git
+cd RailwayAuth-CLI-master
+Compile & Run the program:
 
-
----
-
-## 🚀 How to Run
-
-1. **Clone this repo**
-   ```bash
-   git clone https://github.com/adityamishra1105/ValidRail-CLI.git
-   cd ValidRail-CLI
-
-2. Ensure Java is installed (JDK 8 or above)
-
-3. cd src
-javac AssignmentProgram.java
-java AssignmentProgram
-
-
-
+bash
+Copy
+Edit
+cd src
+g++ AssignmentProgram.cpp -o railwayauth
+./railwayauth   # or railwayauth.exe on Windows
+Make sure resources/userLogin.properties exists with default credentials.
 
 🔐 Admin Credentials
-Default credentials stored in resources/userLogin.properties
+Stored in: resources/userLogin.properties
 
 properties
 Copy
 Edit
 adminUserId=admin
 adminPassword=admin123
-You can change or reset using the "Create New Admin" menu option.
-
+You can update these credentials using the "Create New Admin" CLI option.
 
 📌 Future Enhancements
-1. Switch from File to PostgreSQL DB using JDBC
-2. DAO design pattern
-3. Add booking/ticketing modules
-4. GUI using JavaFX or Web-based frontend
-5. Encrypted password handling
+Switch from file-based storage to SQLite or PostgreSQL using C++ DB libraries
 
-🧑‍💻 Author -
-Aditya Mishra
+Implement DAO pattern
 
+Add ticket booking and train search modules
+
+Add GUI using Qt or SFML
+
+Use hashing/encryption for password storage (e.g., SHA256)
+
+🧑‍💻 Author
+Suhani Mishra
 
