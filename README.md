@@ -29,18 +29,18 @@ Regex:	std::regex for email, phone, and input validation<br>
 Input Handling:	cin, getline()<br>
 
 <h2>📁 Folder Structure </h2>
-objective
-Copy
-Edit
+<pre>
 RailwayAuth-CLI-master/
 ├── src/
 │   └── AssignmentProgram.cpp
 ├── resources/
-│   ├── userLogin.properties   // Simple key-value config
-│   └── users.txt              // Stores user data
+│   ├── userLogin.properties
+│   └── users.txt
 ├── .gitignore
 ├── README.md
 └── LICENSE
+</pre>
+
 🚀 How to Run
 Clone this repo:
 
