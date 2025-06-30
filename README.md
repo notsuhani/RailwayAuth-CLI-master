@@ -13,23 +13,23 @@ User inputs are strictly validated (name, email, DOB, etc.)
 Validated data is saved persistently in a local file (users.txt) <br>
 
 <h1>💻 Features</h1>
-✅ Admin login using a file-based .properties-like config
-✅ Create new admin users from CLI
-✅ User registration form with full input validation
-✅ Retry mechanism on invalid input
-✅ Stores user data in users.txt using file streams
-✅ Menu-driven CLI navigation
+✅ Admin login using a file-based .properties-like config<br>
+✅ Create new admin users from CLI<br>
+✅ User registration form with full input validation<br>
+✅ Retry mechanism on invalid input<br>
+✅ Stores user data in users.txt using file streams<br>
+✅ Menu-driven CLI navigation<br>
 ✅ Modular, structured C++ code using classes and functions <br>
 
 <h1>🛠️ Tech Stack</h1>
 Technology	Usage
-C++ (Core)	Business logic, validation, menu handling
-File I/O	fstream, ifstream, ofstream
-Regex	std::regex for email, phone, and input validation
-Input Handling	cin, getline()
+C++ (Core)	Business logic, validation, menu handling<br>
+File I/O	fstream, ifstream, ofstream<br>
+Regex	std::regex for email, phone, and input validation<br>
+Input Handling	cin, getline()<br>
 
 <h1>📁 Folder Structure </h1>
-objectivec
+objective
 Copy
 Edit
 RailwayAuth-CLI-master/
@@ -47,7 +47,7 @@ Clone this repo:
 bash
 Copy
 Edit
-git clone https://github.com/adityamishra1105/RailwayAuth-CLI-master.git
+git clone https://github.com/notsuhani/RailwayAuth-CLI-master.git
 cd RailwayAuth-CLI-master
 Compile & Run the program:
 
@@ -59,27 +59,27 @@ g++ AssignmentProgram.cpp -o railwayauth
 ./railwayauth   # or railwayauth.exe on Windows
 Make sure resources/userLogin.properties exists with default credentials.
 
-🔐 Admin Credentials
-Stored in: resources/userLogin.properties
+<h1>🔐 Admin Credentials</h1>
+Stored in: resources/userLogin.properties<br>
 
-properties
-Copy
-Edit
-adminUserId=admin
-adminPassword=admin123
-You can update these credentials using the "Create New Admin" CLI option.
+properties<br>
+Copy<br>
+Edit<br>
+adminUserId=suhani<br>
+adminPassword=1234<br>
+You can update these credentials using the "Create New Admin" CLI option.<br>
 
-📌 Future Enhancements
-Switch from file-based storage to SQLite or PostgreSQL using C++ DB libraries
+<h1>📌 Future Enhancements</h1>
+Switch from file-based storage to SQLite or PostgreSQL using C++ DB libraries<br>
 
-Implement DAO pattern
+Implement DAO pattern<br>
 
-Add ticket booking and train search modules
+Add ticket booking and train search modules<br>
 
-Add GUI using Qt or SFML
+Add GUI using Qt or SFML<br>
 
-Use hashing/encryption for password storage (e.g., SHA256)
+Use hashing/encryption for password storage (e.g., SHA256)<br>
 
-🧑‍💻 Author
+<h2>🧑‍💻 Author</h2>
 Suhani Mishra
 
