@@ -22,11 +22,11 @@ Validated data is saved persistently in a local file (users.txt) <br>
 ✅ Modular, structured C++ code using classes and functions <br>
 
 <h1>🛠️ Tech Stack</h1>
-Technology	Usage
-C++ (Core)	Business logic, validation, menu handling<br>
-File I/O	fstream, ifstream, ofstream<br>
-Regex	std::regex for email, phone, and input validation<br>
-Input Handling	cin, getline()<br>
+Technology	Usage <br>
+C++ (Core):	Business logic, validation, menu handling<br>
+File I/O:	fstream, ifstream, ofstream<br>
+Regex:	std::regex for email, phone, and input validation<br>
+Input Handling:	cin, getline()<br>
 
 <h1>📁 Folder Structure </h1>
 objective
